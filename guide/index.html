@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>朝刊わらしべ｜読み方・用語集・ラダーの仕組み</title>
+<style>
+  :root{ --bg:#0a0e1e; --panel:#141b36; --gold:#e8b93e; --gold2:#a8842c; --tx:#f2f0e9; --mut:#aab; --red:#e08a7d; --grn:#7fc97f; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--bg); color:var(--tx); font-family:"Hiragino Maru Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif; line-height:1.75; }
+  .wrap{ max-width:640px; margin:0 auto; padding:20px 16px 48px; }
+  header{ border:2px solid var(--gold); outline:1px solid #5a4a1e; outline-offset:-8px; text-align:center; padding:28px 12px 22px; margin-bottom:20px; }
+  header h1{ font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif; color:var(--gold); font-size:34px; margin:0 0 6px; letter-spacing:.08em; }
+  header p{ margin:2px 0; font-size:14px; }
+  nav{ display:flex; flex-wrap:wrap; gap:8px; margin:0 0 8px; }
+  nav a{ flex:1 1 40%; text-align:center; background:var(--panel); border:1px solid var(--gold2); color:var(--gold); text-decoration:none; padding:10px 4px; border-radius:999px; font-size:14px; }
+  section{ background:var(--panel); border-radius:14px; padding:18px 16px 10px; margin:16px 0; }
+  h2{ font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif; color:var(--gold); font-size:21px; margin:0 0 10px; border-bottom:1px solid var(--gold2); padding-bottom:6px; }
+  h3{ color:var(--gold); font-size:16px; margin:14px 0 4px; }
+  p, li{ font-size:15px; }
+  ul{ padding-left:20px; margin:6px 0 10px; }
+  .term{ margin:0 0 10px; }
+  .term b{ color:var(--gold); }
+  table{ width:100%; border-collapse:collapse; margin:8px 0 12px; font-size:15px; }
+  th, td{ border:1px solid #39406b; padding:6px 8px; text-align:left; }
+  th{ color:var(--gold); font-weight:bold; }
+  .note{ font-size:13px; color:var(--mut); }
+  .warn{ font-size:13.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>朝刊わらしべ</h1>
+  <p>毎朝7時台にお届けする、相場の朝刊です</p>
+  <p class="note">考察とラダーの二本立てでお送りします</p>
+</header>
+<nav>
+  <a href="#guide">読み方</a>
+  <a href="#figures">図の見方</a>
+  <a href="#words">用語集</a>
+  <a href="#ladder">ラダーの仕組み</a>
+</nav>
+
+<section id="about">
+  <h2>朝刊わらしべとは</h2>
+  <p>毎朝、2つの便が届きます。1つ目は「考察」：昨日の相場の振り返りと、今日の見通しを5つの通貨ペア（ゴールド・ドル円・シルバー・USオイル・ビットコイン）でお伝えします。2つ目は「ラダー」：週単位の検証企画の進み具合です。</p>
+  <p>土曜は軽い版（1週間の答え合わせ集計つき）と、ラダーの週の結果をお送りします。日曜は週のまとめが届きます。</p>
+</section>
+
+<section id="guide">
+  <h2>読み方</h2>
+  <h3>まず「今日のおしながき」から</h3>
+  <p>考察のいちばん最初に、その日の全体像をまとめた「今日のおしながき」があります。忙しい日は、ここだけ読めば大丈夫です。読む順番の案内も付いています。</p>
+  <h3>自分の勤務に合った版を読む</h3>
+  <p>考察の後半は、朝勤・日勤・夜勤・専業の4つの版に分かれています。数字は全部の版で同じで、時間帯に合わせて大事なところが変わります。自分の版だけ読めば十分です。各版の冒頭には、その時間帯でいちばん効く水準を「今日の1水準」として大きく出しています。</p>
+  <h3>細かいところ</h3>
+  <ul>
+    <li>図はタップすると大きく開きます。字が小さい時はタップしてみてください</li>
+    <li>各カードの隅の「9/12」のような数字は、全体の何枚目かを示しています</li>
+    <li>各カードの一番下には、そのカードの「まとめ」と大事な数字、次のカードへの案内が付いています</li>
+    <li>下がる数字は赤、上がる数字は緑で書いています（↑↓の記号も併記しています）</li>
+    <li>過去の号は、このトークをさかのぼると読めます。図は期限切れにならない置き方をしています</li>
+  </ul>
+</section>
+
+<section id="figures">
+  <h2>図の見方</h2>
+  <h3>日足セブン</h3>
+  <p>前日の確定した値動きから計算した、7本の大事な価格の線です。上から、大きく抜けた場合の境界線（ハイ・ブレイクアウト）、R2、R1、中心の水準（Pivot）、S1、S2、大きく抜けた場合の境界線（ロー・ブレイクアウト）の順に並びます。「今日はどの線とどの線の間で動くか」を見る物差しです。</p>
+  <h3>チャート考察図</h3>
+  <p>実際の値動きのグラフに、日足セブンの線と、今日の想定の道筋（シナリオ）を重ねた図です。道筋は「条件がそろえばこう進むかもしれない」という見立てで、必ずそうなるという意味ではありません。外れる場合の目線も、文章の方に必ず併記しています。</p>
+  <h3>相場まとめ図説</h3>
+  <p>前日の相場全体のまとめと、今週の経済指標の予定（日本時間）を1枚にまとめた図です。</p>
+</section>
+
+<section id="words">
+  <h2>用語集</h2>
+  <p class="term"><b>CPI</b>：消費者物価指数。物価の上がり下がりを示す、アメリカの大事な経済指標です</p>
+  <p class="term"><b>Pivot（ピボット）</b>：前日の高値・安値・終値から計算した、中心の水準です</p>
+  <p class="term"><b>R1・R2</b>：中心より上の節目（壁になりやすい価格）です</p>
+  <p class="term"><b>S1・S2</b>：中心より下の節目です</p>
+  <p class="term"><b>日足セブン</b>：上の7本の水準の総称です</p>
+  <p class="term"><b>DXY</b>：ドル指数。ドル全体の強さを示します</p>
+  <p class="term"><b>実体抜け</b>：その時間の終値が、節目を超えた位置で確定することです。一時的に超えただけの場合と区別して書いています</p>
+  <p class="term"><b>答え合わせ</b>：前日の朝刊で書いた節目や見立てが、実際にどうなったかを翌日に採点する仕組みです。外れたものも消さずに載せます</p>
+  <p class="term"><b>ゲート</b>：ラダーの段階目標です（くわしくは「ラダーの仕組み」へ）</p>
+</section>
+
+<section id="ladder">
+  <h2>ラダーの仕組み</h2>
+  <p>ラダーは、月曜にモデル残高10,000円から始めて、金曜28:00（土曜4:00）までに段階目標（ゲート）を上がっていく、週単位の検証企画です。毎週リセットされ、翌週はまた10,000円から始まります。</p>
+  <table>
+    <tr><th>ゲート</th><th>残高の目安</th></tr>
+    <tr><td>G1</td><td>20,000円</td></tr>
+    <tr><td>G2</td><td>40,000円</td></tr>
+    <tr><td>G3</td><td>80,000円</td></tr>
+    <tr><td>G4</td><td>160,000円</td></tr>
+    <tr><td>G5</td><td>320,000円</td></tr>
+    <tr><td>G6</td><td>500,000円（天井の目標）</td></tr>
+  </table>
+  <ul>
+    <li>「必達ゲート」は、その週の最低ラインの目標の呼び名です。到達を保証するものではありません</li>
+    <li>ゲートを上がるたびに、増えた分の20%を「出金プール（モデル上の記録）」として取り分けて記録します</li>
+    <li>条件は月曜に全部決めて公表し、結果は相場の実測から機械的に計算します</li>
+  </ul>
+  <p class="warn">ラダーは検証のためのモデル口座の記録で、実際のお金は使っていません。実際の運用成績でもありません。</p>
+</section>
+
+<section id="notice">
+  <h2>大事な注意</h2>
+  <p class="warn">朝刊わらしべは情報提供を目的とした読み物で、売買の推奨ではありません。水準や見立ては計算した目安で、将来の値動きを保証するものではありません。証拠金取引には損失のリスクがあります。実際の判断は、ご自身の責任でお願いします。</p>
+</section>
+
+</div>
+</body>
+</html>
