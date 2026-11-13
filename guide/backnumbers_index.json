@@ -1,1 +1,38 @@
-[{"date":"2026-11-09","headline":"雇用統計の上振れでドル堅調・金は反落","issue":1,"pdf_url":null},{"date":"2026-11-10","headline":"株は大幅反発・原油は急落・金はR1上抜け、ドルは軟化","issue":2,"pdf_url":null},{"date":"2026-11-11","headline":"米CPI上振れでドル高・金安","issue":3,"pdf_url":null},{"date":"2026-11-12","headline":"米CPI後のドル高が続き、ゴールドは4,000ドル割れ・ドル円は160円目前","issue":4,"pdf_url":"https://ira0ma.github.io/warashibe-figures/pdf-x7k9f2/2026-11-12.pdf"},{"date":"2026-11-13","headline":"急落の日。ゴールド・シルバー・BTCがそろって大幅安、ドル円は160円目前で小動き","issue":5,"pdf_url":"https://ira0ma.github.io/warashibe-figures/pdf-x7k9f2/2026-11-13.pdf"}]
+[
+  {
+    "date": "2026-11-09",
+    "headline": "雇用統計の上振れでドル堅調・金は反落",
+    "issue": 1,
+    "pdf_url": null
+  },
+  {
+    "date": "2026-11-10",
+    "headline": "株は大幅反発・原油は急落・金はR1上抜け、ドルは軟化",
+    "issue": 2,
+    "pdf_url": null
+  },
+  {
+    "date": "2026-11-11",
+    "headline": "米CPI上振れでドル高・金安",
+    "issue": 3,
+    "pdf_url": null
+  },
+  {
+    "date": "2026-11-12",
+    "headline": "米CPI後のドル高が続き、ゴールドは4,000ドル割れ・ドル円は160円目前",
+    "issue": 4,
+    "pdf_url": "https://ira0ma.github.io/warashibe-figures/pdf-x7k9f2/2026-11-12.pdf"
+  },
+  {
+    "date": "2026-11-13",
+    "headline": "急落の日。ゴールド・シルバー・BTCがそろって大幅安、ドル円は160円目前で小動き",
+    "issue": 5,
+    "pdf_url": "https://ira0ma.github.io/warashibe-figures/pdf-x7k9f2/2026-11-13.pdf"
+  },
+  {
+    "date": "2026-11-14",
+    "headline": "BTC急落の日。BTC・シルバーがそろって大幅安、ゴールドは小幅高、ドル円は160円目前で小動き",
+    "issue": 6,
+    "pdf_url": "https://ira0ma.github.io/warashibe-figures/pdf-x7k9f2/2026-11-14.pdf"
+  }
+]
