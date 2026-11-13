@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>朝刊わらしべ｜数字の作り方（検証方法）</title>
+<style>
+  :root{ --bg:#0a0e1e; --panel:#141b36; --gold:#e8b93e; --gold2:#a8842c; --tx:#f2f0e9; --mut:#aab; --red:#e08a7d; --grn:#7fc97f; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--bg); color:var(--tx); font-family:"Hiragino Maru Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif; line-height:1.75; }
+  .wrap{ max-width:640px; margin:0 auto; padding:20px 16px 48px; }
+  header{ border:2px solid var(--gold); outline:1px solid #5a4a1e; outline-offset:-8px; text-align:center; padding:28px 12px 22px; margin-bottom:20px; }
+  header h1{ font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif; color:var(--gold); font-size:30px; margin:0 0 6px; letter-spacing:.08em; }
+  header p{ margin:2px 0; font-size:14px; }
+  section{ background:var(--panel); border-radius:14px; padding:18px 16px 10px; margin:16px 0; }
+  h2{ font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif; color:var(--gold); font-size:21px; margin:0 0 10px; border-bottom:1px solid var(--gold2); padding-bottom:6px; }
+  h3{ color:var(--gold); font-size:16px; margin:14px 0 4px; }
+  p, li{ font-size:15px; }
+  ul{ padding-left:20px; margin:6px 0 10px; }
+  table{ width:100%; border-collapse:collapse; margin:8px 0 12px; font-size:15px; }
+  th, td{ border:1px solid #39406b; padding:6px 8px; text-align:left; }
+  th{ color:var(--gold); font-weight:bold; }
+  .note{ font-size:13px; color:var(--mut); }
+  .warn{ font-size:13.5px; }
+  .sub-link{ text-align:center; font-size:14px; }
+  .sub-link a{ color:var(--gold); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>数字の作り方</h1>
+  <p>朝刊の数字が、どうやって作られているか</p>
+  <p class="note">計算方法と、答え合わせの数え方をまとめています</p>
+</header>
+<p class="sub-link"><a href="index.html">案内ページへ戻る</a></p>
+
+<section id="seven">
+  <h2>日足セブンの計算</h2>
+  <p>日足セブンは、前日の確定した日足（高値・安値・終値）から、決まった計算式で機械的に求めています。その日の意見や感覚で動かすことはありません。</p>
+  <table>
+    <tr><th>水準</th><th>計算式</th></tr>
+    <tr><td>Pivot（中心の水準）</td><td>（高値 ＋ 安値 ＋ 終値）÷ 3</td></tr>
+    <tr><td>R1</td><td>2 × Pivot − 安値</td></tr>
+    <tr><td>S1</td><td>2 × Pivot − 高値</td></tr>
+    <tr><td>R2</td><td>Pivot ＋（高値 − 安値）</td></tr>
+    <tr><td>S2</td><td>Pivot −（高値 − 安値）</td></tr>
+    <tr><td>ハイ・ブレイクアウト</td><td>Pivot ＋ 1.5 ×（高値 − 安値）</td></tr>
+    <tr><td>ロー・ブレイクアウト</td><td>Pivot − 1.5 ×（高値 − 安値）</td></tr>
+  </table>
+  <p>いちばん外側の2本（ハイ／ロー・ブレイクアウト）は、一般的なピボットの計算にはない線です。前日の値幅の1.5倍を中心から上下に置く、朝刊わらしべ独自の定義として使っています。</p>
+  <p>日足の区切りは、ニューヨーク時間の17時です。もとになる値動きは Yahoo の60分足データを集めて、日足に組み立てています。表示の都合で水準の数字を丸めることがありますが、計算そのものは同じ材料と式で毎朝行っています。</p>
+</section>
+
+<section id="check">
+  <h2>答え合わせの数え方</h2>
+  <p>前日の朝刊で出した節目が、実際にどうなったかは、翌日の「昨日の答え合わせボード」で採点しています。</p>
+  <ul>
+    <li>到達したかどうかは、節目1本ごとに判定します。1号あたりの判定は20件です</li>
+    <li>到達した節目はもちろん、届かなかった節目や、見立てが崩れた条件も、消さずにそのまま載せます</li>
+    <li>ボードには、到達後にどれだけ有利・不利に動いたか（最大順行・最大逆行）も併記します</li>
+  </ul>
+  <h3>昨日の1水準</h3>
+  <p>勤務形態別の4つの版（朝勤・日勤・夜勤・専業）は、それぞれ冒頭に「今日の1水準」を1つ置いています。翌日には、その4つについても、到達したかどうかと、到達した場合はその後の動きを採点して、ボードの中に小さく併記します。</p>
+</section>
+
+<section id="ladder">
+  <h2>ラダーのルール</h2>
+  <p>ラダーは、決められたルールで数字を動かす、検証のための記録です。</p>
+  <ul>
+    <li>月曜にモデル残高10,000円から始めて、金曜28:00（土曜4:00）に締めます</li>
+    <li>段階目標（ゲート）は、G1 20,000円、G2 40,000円、G3 80,000円、G4 160,000円、G5 320,000円、G6 500,000円です</li>
+    <li>ゲートを上がるたびに、その段で増えた分の20%を「出金プール（モデル上の記録）」として取り分けて記録します</li>
+    <li>モデル残高が5,000円を割ったら、その週のラダーはその時点で終了します</li>
+    <li>週が終わったらリセットし、翌週はまた10,000円から始まります</li>
+  </ul>
+  <p class="warn">ラダーは検証のためのモデル口座の記録で、実際のお金は使っていません。実際の運用成績でもありません。ゲートの数字は目標ラインの呼び名で、到達を保証するものではありません。</p>
+</section>
+
+<section id="notice">
+  <h2>大事な注意</h2>
+  <p class="warn">朝刊わらしべは情報提供を目的とした読み物で、売買の推奨ではありません。水準や見立ては計算した目安で、将来の値動きを保証するものではありません。証拠金取引には損失のリスクがあります。実際の判断は、ご自身の責任でお願いします。</p>
+</section>
+
+<p class="sub-link"><a href="index.html">案内ページへ戻る</a></p>
+</div>
+</body>
+</html>
