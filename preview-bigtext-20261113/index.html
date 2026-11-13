@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>図の文字を本文並みに｜比較ページ（試作）</title>
+<style>
+  :root{ --bg:#0a0e1e; --panel:#141b36; --gold:#e8b93e; --tx:#f2f0e9; --mut:#aab; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--bg); color:var(--tx); font-family:"Hiragino Maru Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif; line-height:1.7; }
+  .wrap{ max-width:420px; margin:0 auto; padding:20px 12px 48px; }
+  h1{ font-size:20px; color:var(--gold); margin:0 0 6px; }
+  h2{ font-size:17px; color:var(--gold); margin:28px 0 6px; border-bottom:1px solid #a8842c; padding-bottom:4px; }
+  p{ font-size:14px; margin:6px 0; }
+  .note{ font-size:13px; color:var(--mut); }
+  .frame{ width:360px; margin:8px auto; border:1px solid #39406b; background:#000; }
+  .frame img{ width:360px; height:auto; display:block; }
+  .body-sample{ width:360px; margin:8px auto; background:var(--panel); border-radius:12px; padding:12px 14px; }
+  .body-sample p{ font-size:16px; margin:0; }
+  .cap{ width:360px; margin:4px auto 0; font-size:13px; color:var(--mut); }
+  .cap b{ color:var(--tx); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>図の文字を「本文並み」にできるか｜比較</h1>
+  <p>スマホの表示幅 360px の枠で並べています。図は画像なので、画面での見かけの文字サイズは「図のフォントpx ×（表示幅 ÷ 図の幅）」で決まります。LINEの本文は約16px相当です。</p>
+
+  <h2>基準：本文テキストの見本（16px）</h2>
+  <div class="body-sample">
+    <p>今日の本文テキストはこの大きさです。ゴールドはPivot 3,915を軸に、S1 3,825方向を想定します（いずれも断定ではありません）。</p>
+  </div>
+  <p class="cap">これが「本文並み」の基準です。以下の図の注記は、この16pxと比べた見かけの最小文字サイズです。</p>
+
+  <h2>現在のチャート考察図（ゴールド）</h2>
+  <div class="frame"><img src="https://ira0ma.github.io/warashibe-figures/2026-11-13/chart_analysis_gold_2026-11-13.png" alt="現在のチャート考察図（ゴールド）"></div>
+  <p class="cap">図の幅 <b>1800px</b>・最小フォント <b>26px</b> → 表示幅360pxでの見かけは <b>約5.2px</b>。本文（16px）の約3分の1しかありません。</p>
+
+  <h2>試作のチャート考察図（ゴールド）</h2>
+  <div class="frame"><img src="chart_analysis_gold_big.png" alt="試作のチャート考察図（ゴールド）"></div>
+  <p class="cap">図の幅 <b>1040px</b>・最小フォント <b>48px</b> → 見かけは <b>約16.6px</b>。本文とほぼ同じ大きさで読めます。レイアウトはスマホ向けに組み替えました（シナリオのパネルは下へ、チップは図の中へ）。</p>
+
+  <h2>現在の日足セブン（ゴールド）</h2>
+  <div class="frame"><img src="https://ira0ma.github.io/warashibe-figures/2026-11-13/daily_seven_gold_2026-11-13.png" alt="現在の日足セブン（ゴールド）"></div>
+  <p class="cap">図の幅 <b>1040px</b>・最小フォント <b>23px</b>（脚注の注記） → 見かけは <b>約8.0px</b>。本文の半分ほどです。</p>
+
+  <h2>試作の日足セブン（ゴールド）</h2>
+  <div class="frame"><img src="daily_seven_gold_big.png" alt="試作の日足セブン（ゴールド）"></div>
+  <p class="cap">図の幅 <b>1040px</b> のまま、最小フォントを <b>40px</b> に上げました → 見かけは <b>約13.8px</b>。水準の値（68px）は見かけ <b>約23.5px</b>、行の見出し（44px）は約15.2pxです。</p>
+
+  <p class="note">※ 試作はいずれも第5号（2026-11-13）の実データで描いたもので、数字は配信した図と同じです。詳しい調整内容は制作側の報告書にまとめています。</p>
+</div>
+</body>
+</html>
