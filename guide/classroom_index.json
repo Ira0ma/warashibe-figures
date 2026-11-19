@@ -1,72 +1,79 @@
 [
-  {
-    "date": "2026-11-10",
-    "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-10/classroom_2026-11-10.png",
-    "issue": 2,
-    "summary": "ゴールドは終値が中心の水準（Pivot）の上、ドル円はすぐ下。終値とPivotの上下で、翌日の見立ての出発点が変わることを解説しました",
-    "title": "終値とピボットの位置関係"
-  },
-  {
-    "date": "2026-11-11",
-    "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-11/classroom_2026-11-11.png",
-    "issue": 3,
-    "summary": "米CPIの夜に、ゴールドとドル円のPivotとの上下が前日と逆になりました。位置関係が入れ替わると出発点も変わることを解説しました",
-    "title": "CPIの夜の入れ替わり"
-  },
-  {
-    "date": "2026-11-12",
-    "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-12/classroom_2026-11-12.png",
-    "issue": 4,
-    "summary": "ゴールドが終値で4,000ドルとPivotを割り込んだ日。中心の水準の下で引けた場合の、翌日の出発点を解説しました",
-    "title": "4,000ドルを割れたゴールド"
-  },
-  {
-    "date": "2026-11-13",
-    "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-13/classroom_2026-11-13.png",
-    "issue": 5,
-    "summary": "ゴールドがS1、続いてS2も割れた実測で、下の節目を割れたら次の節目が目安になることを解説しました",
-    "title": "S1を割れたらS2も見る"
-  },
-  {
-    "date": "2026-11-14",
-    "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-14/classroom_2026-11-14.png",
-    "issue": 6,
-    "summary": "金曜のドル円が R1 160.15 に一時的に触れた（高値 160.188）が、終値 159.686 は Pivot 159.80 の下で引けた実測で、一時的な抜けと実体抜けの違いを解説しました",
-    "title": "一時的な抜けと実体抜けの違い"
-  },
-  {
-    "date": "2026-11-15",
-    "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-15/classroom_2026-11-15.png",
-    "issue": 7,
-    "summary": "金曜はゴールド・ドル円・USオイルが4本の節目の内側で引けた実測で、節目の内側で引けた日の読み方を解説しました",
-    "title": "節目の内側で引けた日の読み方"
-  },
-  {
-    "date": "2026-11-16",
-    "issue": 8,
-    "title": "値動きの大きさは％で比べる",
-    "summary": "金曜はBTC −4.40%（3,819.12ドル動いた）、シルバー −2.62%、ゴールド +0.15%（56.10ドル動いた）、ドル円 −0.08%（0.68円動いた）という実測で、値動きの大きさは金額ではなく％で比べることを解説しました",
-    "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-16/classroom_2026-11-16.png"
-  },
-  {
-    "date": "2026-11-17",
-    "issue": 9,
-    "title": "節目を割れて引けた翌日、日足セブンはどう動くか",
-    "summary": "月曜は4銘柄が S1 を割れて引け、火曜の Pivot はゴールド −30ドル、シルバー −1.80ドル、USオイル −2.30ドル、BTC −4,200ドルと全て下がった。S1 を割れて引けた翌日のセブンの動きを解説しました",
-    "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-17/classroom_2026-11-17.png"
-  },
-  {
-    "date": "2026-11-18",
-    "issue": 10,
-    "title": "小売売上高の発表後にドル円がどちらへ動いたか",
-    "summary": "米10月小売売上高は前月比 +0.2%と予想どおりだったが、発表後のドル円は 22:00足・23:00足は小動きにとどまり、00:00足で S1 159.25 に先に触れた。その後の最高値は 159.403 で、目標の Pivot 159.55 には届かなかった",
-    "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-18/classroom_2026-11-18.png"
-  },
-  {
-    "date": "2026-11-19",
-    "issue": 11,
-    "title": "下げた日の翌朝、節目をどう読むか",
-    "summary": "水曜のゴールドは始値 3,855.30 から終値 3,727.80 まで −127.50ドル動き、S1 3,830 と S2 3,805 を実体抜けで割った。S1 に触れただけでは反発の確認にならず、終値が S1 を割れて引けたことで見立ては下方向へ切り替わった。木曜は Pivot 3,770 を軸に、S1 3,680 と R1 3,815 のどちらへ動くかを見る",
-    "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-19/classroom_2026-11-19.png"
-  }
+ {
+  "date": "2026-11-10",
+  "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-10/classroom_2026-11-10.png",
+  "issue": 2,
+  "summary": "ゴールドは終値が中心の水準（Pivot）の上、ドル円はすぐ下。終値とPivotの上下で、翌日の見立ての出発点が変わることを解説しました",
+  "title": "終値とピボットの位置関係"
+ },
+ {
+  "date": "2026-11-11",
+  "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-11/classroom_2026-11-11.png",
+  "issue": 3,
+  "summary": "米CPIの夜に、ゴールドとドル円のPivotとの上下が前日と逆になりました。位置関係が入れ替わると出発点も変わることを解説しました",
+  "title": "CPIの夜の入れ替わり"
+ },
+ {
+  "date": "2026-11-12",
+  "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-12/classroom_2026-11-12.png",
+  "issue": 4,
+  "summary": "ゴールドが終値で4,000ドルとPivotを割り込んだ日。中心の水準の下で引けた場合の、翌日の出発点を解説しました",
+  "title": "4,000ドルを割れたゴールド"
+ },
+ {
+  "date": "2026-11-13",
+  "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-13/classroom_2026-11-13.png",
+  "issue": 5,
+  "summary": "ゴールドがS1、続いてS2も割れた実測で、下の節目を割れたら次の節目が目安になることを解説しました",
+  "title": "S1を割れたらS2も見る"
+ },
+ {
+  "date": "2026-11-14",
+  "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-14/classroom_2026-11-14.png",
+  "issue": 6,
+  "summary": "金曜のドル円が R1 160.15 に一時的に触れた（高値 160.188）が、終値 159.686 は Pivot 159.80 の下で引けた実測で、一時的な抜けと実体抜けの違いを解説しました",
+  "title": "一時的な抜けと実体抜けの違い"
+ },
+ {
+  "date": "2026-11-15",
+  "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-15/classroom_2026-11-15.png",
+  "issue": 7,
+  "summary": "金曜はゴールド・ドル円・USオイルが4本の節目の内側で引けた実測で、節目の内側で引けた日の読み方を解説しました",
+  "title": "節目の内側で引けた日の読み方"
+ },
+ {
+  "date": "2026-11-16",
+  "issue": 8,
+  "title": "値動きの大きさは％で比べる",
+  "summary": "金曜はBTC −4.40%（3,819.12ドル動いた）、シルバー −2.62%、ゴールド +0.15%（56.10ドル動いた）、ドル円 −0.08%（0.68円動いた）という実測で、値動きの大きさは金額ではなく％で比べることを解説しました",
+  "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-16/classroom_2026-11-16.png"
+ },
+ {
+  "date": "2026-11-17",
+  "issue": 9,
+  "title": "節目を割れて引けた翌日、日足セブンはどう動くか",
+  "summary": "月曜は4銘柄が S1 を割れて引け、火曜の Pivot はゴールド −30ドル、シルバー −1.80ドル、USオイル −2.30ドル、BTC −4,200ドルと全て下がった。S1 を割れて引けた翌日のセブンの動きを解説しました",
+  "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-17/classroom_2026-11-17.png"
+ },
+ {
+  "date": "2026-11-18",
+  "issue": 10,
+  "title": "小売売上高の発表後にドル円がどちらへ動いたか",
+  "summary": "米10月小売売上高は前月比 +0.2%と予想どおりだったが、発表後のドル円は 22:00足・23:00足は小動きにとどまり、00:00足で S1 159.25 に先に触れた。その後の最高値は 159.403 で、目標の Pivot 159.55 には届かなかった",
+  "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-18/classroom_2026-11-18.png"
+ },
+ {
+  "date": "2026-11-19",
+  "issue": 11,
+  "title": "下げた日の翌朝、節目をどう読むか",
+  "summary": "水曜のゴールドは始値 3,855.30 から終値 3,727.80 まで −127.50ドル動き、S1 3,830 と S2 3,805 を実体抜けで割った。S1 に触れただけでは反発の確認にならず、終値が S1 を割れて引けたことで見立ては下方向へ切り替わった。木曜は Pivot 3,770 を軸に、S1 3,680 と R1 3,815 のどちらへ動くかを見る",
+  "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-19/classroom_2026-11-19.png"
+ },
+ {
+  "date": "2026-11-20",
+  "issue": 12,
+  "title": "終値が節目を超えて引けたとき、見立てはどう切り替わるか",
+  "summary": "木曜のドル円は R1 159.60 に触れ、終値 159.671 が R1 の上。ゴールドは S1 3,680 に触れ、終値 3,627.90 が S1 の下。どちらも「触れた」だけでなく「終値が節目を超えて引けた」ことで見立てが切り替わった。金曜は Pivot 3,670 を軸に、S1 3,580 と R1 3,720 のどちらへ動くかを見る",
+  "figure_url": "https://ira0ma.github.io/warashibe-figures/2026-11-20/classroom_2026-11-20.png"
+ }
 ]
